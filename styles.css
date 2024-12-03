@@ -1,0 +1,56 @@
+.azul{
+    background-color: chartreuse;
+}
+
+.letraChica{
+    font-size: large;
+}
+
+#contenedorProductos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 380px;
+    border: 1px solid black;
+    margin: 3px;
+}
+
+.producto img {
+    width: 150px;
+}
+
+#cajita{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#carrito{
+    border: 2px solid black;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaCarrito{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oculta {
+    display: none !important;
+}
